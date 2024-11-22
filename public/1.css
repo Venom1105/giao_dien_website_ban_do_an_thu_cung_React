@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');  
+
+
+
+*{
+   
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+  }
+
+
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.backgr{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 199, 26);
+}
+.backgr .back1 {
+  font-family: 'Playfair Display', serif; 
+}
+.backgr .back0 a{
+ font-size: 30px;
+  margin: 20px;
+  font-family: 'Playfair Display', serif; 
+}
+.backgr .back0 a img{
+  margin-right: 350px;
+}
+/* search */
+.khunginput{
+  position: relative;
+}
+.ic_reset{
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+.ic_reset:hover{
+  cursor: pointer;
+}
+/* product */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Canh giữa các card theo chiều ngang */
+}
+.card{
+  max-width: 355px;
+  flex: 1 0 355px; /* Chiều rộng tối đa của card là 300px */
+  margin: 10px;
+}
+
+.product .back h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;   
+    color: rgb(161, 107, 37);
+}
+.product .back .btn{
+    color: rgb(161, 107, 37);
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:  rgb(238, 199, 26);
+    margin-left: 120px;
+}
+.product .back .btn:hover{
+    background-color:  rgb(145, 151, 29);
+    color: white;
+}
+.product .back img{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.product .cv{
+    position: absolute;
+    bottom: 250px;
+    color: rgb(161, 107, 37);
+    border:20px solid white;
+    border-radius: 50px;
+    background-color: aliceblue;
+    left: 50px;
+
+}
+
+
+.product .back2 h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+    
+}
+.product .back2 img{
+    width: 100%;
+    height:500px
+    
+}
+
+.product .back2 .food{
+   margin-top: -200px;
+   text-align: center;
+  
+    
+}
+.product .back3  a{
+   margin:  110px;
+   color: rgb(161, 107, 37);
+   border-radius:  20px ;
+   font-family: 'Playfair Display', serif;
+   margin-top: 10px;
+  
+}
+.product .back3 a:hover{
+    background-color: rgb(145, 151, 29);
+    color: white;
+}
+.product .back4 {
+  
+    background-color:rgb(238, 199, 26) ;
+    margin-top: 40px;
+    
+} 
+
+ /* contact */
+ .contact{
+  font-family: 'Playfair Display', serif;  
+ }
+ 
+ 
+/* order */
+/* carttotal */
+.carttotal{
+  background-color: #ecf0f1;
+ }
+
+/* footer */
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(238, 199, 26);
+  }
+  
+  .footer .box-container .box{
+    flex:1 1 20rem;
+  
+  }
+  
+  .footer .box-container .box h3{
+    font-family: 'Playfair Display', serif;  
+    font-size: 20px;
+    color:white;
+    padding:.7rem 0;
+  }
+  
+  .footer .box-container .box p{
+    font-family: 'Playfair Display', serif;  
+    font-size: 20px;
+    color:#666;
+    padding:10px;
+  }
+  
+  .footer .box-container .box a{
+    font-family: 'Playfair Display', serif;  
+    display: block;
+    font-size: 20px;
+    color:#666;
+    padding:.7rem 0;
+    text-decoration: none;
+  }
+  
+  .footer .box-container .box a:hover{
+    color:white;
+  }
+  
+  .footer .box-container .box p i{
+    padding-right: 10px;
+    color:white;
+  }
+  
+  .footer .credit{
+    font-size: 20px;
+    margin-top: 1rem;
+    padding:1rem;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    color:#666;
+  }
+  
+  .footer .credit span{
+    font-family: 'Playfair Display', serif;  
+    color: rgb(238, 199, 26);
+  }
+
+  
+  /* login */
+  .login img{
+    
+      width: 100%;
+      height: 500px;
+      position: relative;
+  }
+  .login .form{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+
+  }
+.login  h5{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+
+}
+.login form{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgb(217, 215, 76) 0%, rgba(159, 198, 69, 0.653) 100%);
+    width: 500px;
+    height: auto;
+    border: 5px solid rgb(4, 4, 16);
+    border-radius: 10px;
+    margin: auto;
+
+}
+.login form h5{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.login form .txt{
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.login form .nut{
+text-align: center;
+margin-top: 10px;
+}
+.login form .nut .btn{ 
+    
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+.login form .nut .btn:hover{
+    background-color: rgb(16, 1, 1);
+    color: aliceblue;
+}
+.login .form2{
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  
+}
+
+ /*Register*/
+
+
+ .Register img{
+    
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.Register .form{
+position: absolute;
+top: 150px;
+left: 130px;
+
+}
+.Register  h5{
+font-family: 'Grape Nuts', cursive;
+font-size: 50px;
+
+}
+.Register form{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgb(217, 215, 76) 0%, rgba(159, 198, 69, 0.653) 100%);
+width: 500px;
+height: auto;
+border: 5px solid rgb(4, 4, 16);
+border-radius: 10px;
+margin: auto;
+
+}
+.Register form h5{
+text-transform: uppercase;
+text-align: center;
+
+}
+.Register form .txt{
+width: 450px;
+margin-left: 20px;
+margin-bottom: 20px;
+height: 40px;
+font-size: 18px;
+padding-left: 10px;
+}
+.Register form .nut{
+text-align: center;
+margin-top: 10px;
+}
+.Register form .nut .btn{ 
+
+font-size: 15px;
+cursor: pointer;
+padding: 10px 20px;
+
+}
+.Register form .nut .btn:hover{
+background-color: rgb(16, 1, 1);
+color: aliceblue;
+}
+.Register .form2{
+position: absolute;
+top: 150px;
+left: 750px;
+
+}
